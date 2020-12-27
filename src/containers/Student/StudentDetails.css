@@ -1,0 +1,41 @@
+.form-wrapper {
+  width: 40%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.3rem;
+}
+
+form {
+  width: 100%;
+}
+
+h2 {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.update-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-btn {
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .form-wrapper {
+    width: 90%;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  .header-btn {
+    padding: 0.4rem;
+  }
+}

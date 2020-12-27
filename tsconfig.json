@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "../exampleComponents/TodoList.tsx", "src/components/NewTodo.tsx"  ]
 }

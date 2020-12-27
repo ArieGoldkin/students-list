@@ -1,0 +1,27 @@
+.ListWrapper {
+  width: 60%;
+  margin: 1rem auto;
+}
+.Header {
+  color: #007bff;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.Btn {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 500px) {
+  .ListWrapper {
+    width: 350px;
+  }
+  .Header {
+    font-size: 2rem;
+  }
+  .Btn {
+    margin-bottom: 0.3rem;
+    width: 54%;
+    font-size: 0.9rem;
+  }
+}

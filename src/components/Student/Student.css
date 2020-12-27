@@ -1,0 +1,64 @@
+.ListGroup-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #959595;
+  border-radius: 0.3rem;
+  box-shadow: 0px 0px 5px 1px #ccc;
+}
+.checkbox-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: self-end;
+  justify-content: space-around;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+.ContentWrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.label-wrapper {
+  margin-right: 1rem;
+}
+label {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  margin-bottom: 0;
+}
+
+.BtnStyle {
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+@media (max-width: 500px) {
+  .ListGroup-item {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  .checkbox-wrapper {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0.2rem;
+  }
+  input[type="checkbox"] {
+    transform: scale(1.8);
+  }
+  .ContentWrapper {
+    width: 100%;
+    align-items: baseline;
+    flex-direction: column;
+  }
+  .BtnStyle {
+    background: #0582ca;
+    color: #ffff;
+  }
+}
